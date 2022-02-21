@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes core</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Roboto+Mono:wght@500&family=Roboto+Serif:wght@200&family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="top">
+    <div class="nav">
+        <h1 class="nav-title">Network</h1>
+    </div>
+</div>
+<div class="container">
+    <h1> Your Feed</h1>
+    <div class="row">
+        <div class="column">
+            <div class="box1">
+                <img src="img/user.png" alt="usericon" class="imagenUsuario">
+                <a href="#" target="_blank">Add an avatar</a>
+                <h1>James Doe</h1>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="box2">
+                <div class="boxheader">
+                    <h2>Neil M</h2>
+                    <h4 id="likes-box2">4 Like(s)</h4>
+                    <button class="btn1" onclick="like('likes-box2', 0)">Like</button>
+                </div>
+                <p>I just set up this new discord bot, let me know what you all think. <a href="#" target="_blank">link</a></p>
+            </div>
+            <div class="box2">
+                <div class="boxheader">
+                    <h2>Nichole K</h2>
+                    <h4 id="likes-box3">12 Like(s)</h4>
+                    <button class="btn1" onclick="like('likes-box3', 1)">Like</button>
+                </div>
+                <p>Just finished my <a href="#" target="_blank">next comic</a> check it out</p>
+            </div>
+            <div class="box2">
+                <div class="boxheader">
+                    <h2>Neil M</h2>
+                    <h4 id="likes-box4">9 Like(s)</h4>
+                    <button class="btn1" onclick="like('likes-box4', 2)">Like</button>
+                </div>
+                <p>I can't stop listening to the <a href="#" target="_blank">new album</a>.<br>Who else is liking it?</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
