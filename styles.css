@@ -121,15 +121,10 @@ body {
     color: black;
     box-shadow: 5px 5px 5px black;
 }
-.box2 h2{
-    /* display:inline; */
-    justify-content: space-around;
-}
-
 
 .box2 .boxheader{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
 }
 
